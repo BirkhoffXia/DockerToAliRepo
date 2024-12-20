@@ -1,15 +1,23 @@
-#redis:7.4.1
+# Nginx
 #nginx:1.27.2
+
+# Mysql
 #mysql:8.4.3
+
+# Nacos
 #nacos/nacos-server:v2.4.3
 #nacos/nacos-server:v2.1.0
-#redis
+
+# Redis
+redis:7.0.5
+
+# Kubernetes
+# Kubernetes Prometheus Operator Required Images
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.14.0
+
 #ghcr.io/sozercan/llama3.1:8b
 #ghcr.io/open-webui/open-webui:ollama
 #ghcr.io/open-webui/open-webui:cuda
 #cr2.fit2cloud.com/1panel/maxkb
-kubesphere/ks-installer:v3.4.1
-
-# Kubernetes Prometheus Operator Required Images
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6
-registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.14.0
+#kubesphere/ks-installer:v3.4.1
